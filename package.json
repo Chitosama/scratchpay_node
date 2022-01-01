@@ -1,0 +1,27 @@
+{
+  "name": "scratchpay_node",
+  "version": "1.0.0",
+  "description": "Scratchpay Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node ./index.js",
+    "build": "tsc",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chitosama/scratchpay_node.git"
+  },
+  "author": "Chitosama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chitosama/scratchpay_node/issues"
+  },
+  "homepage": "https://github.com/Chitosama/scratchpay_node#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  }
+}
